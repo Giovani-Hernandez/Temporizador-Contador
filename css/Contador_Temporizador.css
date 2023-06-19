@@ -8,38 +8,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
 }
-
-.boton-inicio {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 9999;
-}
-
-.boton-inicio .botonPrincipal {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.boton-inicio .botonPrincipal:hover {
-  background-color: #555;
-  transform: scale(1.1);
-}
-
-.container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 10px 6px rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
-
 .container h1 {
   font-size: 24px;
   margin-bottom: 20px;
